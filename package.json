@@ -1,0 +1,23 @@
+{
+  "name": "auroracraft-launcher",
+  "version": "0.1.0",
+  "description": "Launcher AuroraCraft",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "icon": "assets/logo.png",
+  "author": "Tyrolium",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^21.2.3",
+    "electron-builder": "^22.14.13"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "discord-rpc": "^4.0.1",
+    "izitoast": "^1.4.0",
+    "minecraft-launcher-core": "^3.15.0"
+  }
+}
